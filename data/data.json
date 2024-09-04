@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "username": "usuario_alfa",
+            "password": "secret_sauce",
+            "email": "standard_user@example.com",
+            "address": "123 Main Street",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipcode": "90001",
+            "phone_number": "+1-800-555-1234"
+        },
+        {
+            "username": "usuario beta",
+            "password": "secret_sauce",
+            "email": "locked_out_user@example.com",
+            "address": "456 Secondary Street",
+            "city": "San Francisco",
+            "state": "CA",
+            "zipcode": "94102",
+            "phone_number": "+1-800-555-5678"
+        },
+        {
+            "username": "problem_user",
+            "password": "secret_sauce",
+            "email": "problem_user@example.com",
+            "address": "789 Third Avenue",
+            "city": "San Diego",
+            "state": "CA",
+            "zipcode": "92101",
+            "phone_number": "+1-800-555-9101"
+        },
+        {
+            "username": "performance_glitch_user",
+            "password": "secret_sauce",
+            "email": "performance_user@example.com",
+            "address": "101 First Street",
+            "city": "Sacramento",
+            "state": "CA",
+            "zipcode": "95814",
+            "phone_number": "+1-800-555-1415"
+        }
+    ]
+}

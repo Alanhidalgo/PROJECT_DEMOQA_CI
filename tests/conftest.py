@@ -41,8 +41,8 @@ def setup(request):
 
 # Fixture para cargar credenciales
 @pytest.fixture(scope="session")
-def credentials():
-    with open("data/credentials.json") as json_file:
+def ramdom_users():
+    with open("data/data.json") as json_file:
         data = json.load(json_file)
     return data
 
