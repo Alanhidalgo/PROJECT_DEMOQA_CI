@@ -54,3 +54,9 @@ def clear_fields():
             if field.get_attribute("value"):
                 field.clear()
     return _clear_fields
+
+# fixture para navegar a demoqa, webbtables
+@pytest.fixture
+def navigate_to_webtables(request):
+    # Usa el driver que está en request.cls.driver
+    request.cls.driver.get("https://demoqa.com/webtables")  # Navegar a la página web

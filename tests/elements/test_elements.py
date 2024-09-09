@@ -9,7 +9,7 @@ class TestElementsPage:
     driver: WebDriver
     
     def test_text_box_form(self, clear_fields, ramdom_users):
-        # Seleccionamos el primer usuario del JSON
+        # Seleccionamos el segundo usuario del JSON
         user = ramdom_users["users"][1]  
 
         # Navegar a la página de Text Box

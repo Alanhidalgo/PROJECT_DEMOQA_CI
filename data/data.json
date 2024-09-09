@@ -21,12 +21,15 @@
             "phone_number": "+1-800-555-5678"
         },
         {
-            "username": "problem_user",
-            "password": "secret_sauce",
-            "email": "problem_user@example.com",
-            "address": "789 Third Avenue",
-            "city": "San Diego",
-            "state": "CA",
+            "username": "john wick",
+            "lastname": "the best",
+            "password": "secreto",
+            "email": "example@example.com",
+            "age": "32",
+            "address": "New York",
+            "city": "New York",
+            "salary": "5000000",
+            "state": "USA",
             "zipcode": "92101",
             "phone_number": "+1-800-555-9101"
         },
