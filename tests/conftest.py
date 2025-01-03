@@ -61,7 +61,7 @@ def navigate_to_webtables(request):
     # Usa el driver que está en request.cls.driver
     request.cls.driver.get("https://demoqa.com/webtables")  # Navegar a la página web
 
-# fixture para navegar a demoqa, webbtables
+# fixture para navegar a demoqa, practice form
 @pytest.fixture
 def navigate_to_practice_form(request):
     # Usa el driver que está en request.cls.driver
