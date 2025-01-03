@@ -4,16 +4,16 @@ from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.support import expected_conditions as EC
 
-@pytest.mark.usefixtures("setup")
+@pytest.mark.usefixtures("setup", "navigate_to_text_box")
 class TestElementsPage:
     driver: WebDriver
     
     def test_text_box_form(self, clear_fields, ramdom_users):
         # Seleccionamos el segundo usuario del JSON
-        user = ramdom_users["users"][1]  
+        user = ramdom_users["users"][2]  
 
         # Navegar a la página de Text Box
-        self.driver.get("https://demoqa.com/text-box")
+        # self.driver.get("https://demoqa.com/text-box")
 
         # Definir los campos del formulario y sus selectores
         form_fields = {
