@@ -66,3 +66,9 @@ def navigate_to_webtables(request):
 def navigate_to_practice_form(request):
     # Usa el driver que está en request.cls.driver
     request.cls.driver.get("https://demoqa.com/automation-practice-form")  # Navegar a la página web
+
+# fixture para navegar a demoqa, Elements - Text Box
+@pytest.fixture
+def navigate_to_text_box(request):
+    # Usa el driver que está en request.cls.driver
+    request.cls.driver.get("https://demoqa.com/text-box")  # Navegar a la página web
