@@ -19,7 +19,7 @@ def setup(request):
     if browser == "chrome":
         options = ChromeOptions()
         # Descomentar la siguiente línea para ejecutar en modo headless (sin interfaz gráfica)
-        # options.add_argument("--headless")
+        options.add_argument("--headless")
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
 
     
